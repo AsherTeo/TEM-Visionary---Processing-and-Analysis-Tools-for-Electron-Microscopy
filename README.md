@@ -1,8 +1,9 @@
 # TEM Particle Tracking: Image Processing and Computer Vision Analysis
 
-## Overview
+## Disclaimer
 To start, it's important to note that the video showcased is not a representation of the work I completed during my professional endeavors. I selected this particular video due to its confidential content.  The primary goal is to demonstrate and highlight my skills.
 
+## Overview
 The primary aim of this project is to track the individual growth of particles over time and analyze the resulting trends. In real-world scenarios, particles often undergo nucleation, a process where small particles form and grow. Understanding the nucleation process is crucial for comprehending the overall particle growth dynamics. Additionally, the project aims to investigate instances where particles exhibit sudden size changes, attributed to chemical processes. 
 
 ## Objective
