@@ -3,9 +3,9 @@
 ## Overview
 To start, it's important to note that the video showcased is not a representation of the work I completed during my professional endeavors. I selected this particular video due to its confidential content.  The primary goal is to demonstrate and highlight my skills.
 
-## Objective
 The primary aim of this project is to track the individual growth of particles over time and analyze the resulting trends. In real-world scenarios, particles often undergo nucleation, a process where small particles form and grow. Understanding the nucleation process is crucial for comprehending the overall particle growth dynamics. Additionally, the project aims to investigate instances where particles exhibit sudden size changes, attributed to chemical processes. 
 
+## Objective
 The goal is to identify and analyze the reasons behind such fluctuations, whether it be an increase or decrease in particle size, providing valuable insights into the underlying chemical phenomena influencing particle behavior. The tracking mechanism employed in this study enables the observation of nucleation events and facilitates a comprehensive analysis of the factors contributing to particle growth or shrinkage over time.
 
 ## Methodology
@@ -15,15 +15,14 @@ The methodology for this project involves a multi-step process:
 Image Annotation is conducted using  [LabKit](https://imagej.net/plugins/labkit/). Given the rarity of the particles, utilizing a pre-trained model is not feasible. Hence, a self-annotation approach is adopted, where a small subset of the frames is manually annotated. The selection of frames for annotation depends on the characteristics of the dataset. The purpose of self-annotation is to generate an accurate binary mask, which can then be utilized for training purposes.
      
 2. **Image-to-Image Translation**
-   [CycleGAN](https://arxiv.org/abs/1703.10593) and [Pix2pixGAN](https://arxiv.org/abs/1611.07004) is utilized for training. The difference between CycleGan and pix2pix GAN is that pix2pix gan required paired dataset while c
-
-3. **Particle Tracking:**
+  The training process employs [Pix2pixGAN](https://arxiv.org/abs/1611.07004) , specifically designed for paired image-to-image translation tasks. This model is trained using a dataset consisting of input images (frames) and their corresponding targets (binary masks). By utilizing a small subset of annotated masks during training, Pix2pixGAN learns the necessary mapping, enabling its application to the remaining unannotated frames.
+4. **Particle Tracking:**
    - Utilizing computer vision algorithms to track the movement and growth of individual particles across frames.
 
-4. **Feature Extraction:**
+5. **Feature Extraction:**
    - Extracting key features, such as particle size and shape, for each tracked particle.
 
-5. **Data Analysis:**
+6. **Data Analysis:**
    - Analyzing the extracted data to identify trends, especially focusing on nucleation events and sudden size changes.
 
 The methodology is designed to provide a robust framework for understanding particle behavior and trends over time.
