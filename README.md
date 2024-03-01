@@ -21,10 +21,7 @@ The training process employs [Pix2pixGAN](https://arxiv.org/abs/1611.07004) , sp
 After the Pix2pixGAN training, some of the generated masks may exhibit discoloration. To address this, an additional step is implemented using OpenCV to convert these masks into binary format. This post-processing ensures uniformity and accuracy in the binary masks, enhancing their suitability for subsequent stages of the analysis.
 
 3. **Particle Tracking:**
-   - Utilizing computer vision algorithms to track the movement and growth of individual particles across frames.
-
-5. **Feature Extraction:**
-   - Extracting key features, such as particle size and shape, for each tracked particle.
+A class is designed for object tracking in a video, utilizing the Euclidean distance to monitor the positions of detected objects. It assigns unique IDs to objects based on their movement across frames, maintaining and updating their center positions as new frames are processed. In the case of a newly detected object, the class either updates the existing object's position or assigns a new ID. There are two types of methods employed to identify particles: one utilizes a unique index, and the other adds unique colors. The unique color method is particularly advantageous for easy identification. The class ensures effective object tracking using the Euclidean distance metric and manages the cleanup of unused IDs.
 
 6. **Data Analysis:**
    - Analyzing the extracted data to identify trends, especially focusing on nucleation events and sudden size changes.
