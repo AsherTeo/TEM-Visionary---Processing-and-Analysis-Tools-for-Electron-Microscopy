@@ -7,8 +7,11 @@ To start, it's important to note that the video showcased is not a representatio
 
 
 ## Demo
+#### Binary Mask
+
 ![merge_mask](https://github.com/AsherTeo/TEM-Visionary---Processing-and-Analysis-Tools-for-Electron-Microscopy/assets/78581569/6493b8ff-1a73-447f-ac83-9ef98252b83d)
 
+#### Tracking
 ![merge1](https://github.com/AsherTeo/TEM-Visionary---Processing-and-Analysis-Tools-for-Electron-Microscopy/assets/78581569/6a86bdf8-7c36-4e63-ba6e-006f218e6096)
 
 ## Data Download
