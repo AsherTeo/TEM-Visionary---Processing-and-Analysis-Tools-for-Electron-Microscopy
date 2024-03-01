@@ -1,7 +1,7 @@
 # TEM Particle Tracking: Image Processing and Computer Vision Analysis
 
 ## Overview
-To begin, I want to clarify that the video presented is not the one I produced during work. I opted for this video due to its confidential nature. The primary goal is to demonstrate and highlight my skills.
+To start, it's important to note that the video showcased is not a representation of the work I completed during my professional endeavors. I selected this particular video due to its confidential content.  The primary goal is to demonstrate and highlight my skills.
 
 
 ## Data Download
