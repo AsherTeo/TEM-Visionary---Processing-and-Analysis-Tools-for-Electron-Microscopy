@@ -1,8 +1,8 @@
 # TEM Particle Tracking: Image Processing and Computer Vision Analysis
 
 ## Overview
+To begin, I want to clarify that the video presented is not the one I produced during work. I opted for this video due to its confidential nature. The primary goal is to demonstrate and highlight my skills.
 
-Explore our advanced computer vision skills through this showcase. We offer a sneak peek into practical applications, demonstrated via a sample video. This exhibition is a testament to our expertise in the dynamic field of computer vision, respecting confidentiality constraints related to ongoing projects.
 
 ## Data Download
 
