@@ -2,6 +2,8 @@
 
 ## Overview
 
+Explore our advanced computer vision skills through this showcase. We offer a sneak peek into practical applications, demonstrated via a sample video. This exhibition is a testament to our expertise in the dynamic field of computer vision, respecting confidentiality constraints related to ongoing projects.
+
 ## Data Download
 
 
