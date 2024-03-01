@@ -8,3 +8,5 @@ Explore our advanced computer vision skills through this showcase. We offer a sn
 
 
 ![merge_mask](https://github.com/AsherTeo/TEM-Visionary---Processing-and-Analysis-Tools-for-Electron-Microscopy/assets/78581569/6493b8ff-1a73-447f-ac83-9ef98252b83d)
+![merge2](https://github.com/AsherTeo/TEM-Visionary---Processing-and-Analysis-Tools-for-Electron-Microscopy/assets/78581569/5b28635d-2bf2-45aa-8a39-18534a65fd21)
+
