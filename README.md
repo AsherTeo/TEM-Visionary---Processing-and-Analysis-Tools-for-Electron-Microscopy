@@ -12,10 +12,10 @@ The goal is to identify and analyze the reasons behind such fluctuations, whethe
 The methodology for this project involves a multi-step process:
 
 1. **Video Preprocessing:**
-   - Image Annotation is conducted using  [LabKit](https://imagej.net/plugins/labkit/). Given the rarity of the particles, utilizing a pre-trained model is not feasible. Hence, a self-annotation approach is adopted, where approximately 10% of the frames are manually annotated. The selection of frames for annotation depends on the characteristics of the dataset.
-   - 
-2. **Image Segmentation:**
-   - Employing advanced image segmentation techniques to isolate individual particles and create binary masks.
+   - Image Annotation is conducted using  [LabKit](https://imagej.net/plugins/labkit/). Given the rarity of the particles, utilizing a pre-trained model is not feasible. Hence, a self-annotation approach is adopted, where a small subset of the frames is manually annotated. The selection of frames for annotation depends on the characteristics of the dataset. The purpose of self-annotation is to generate an accurate binary mask, which can then be utilized for training purposes.
+     
+2. **Image-to-Image Translation**
+   [CycleGAN](https://arxiv.org/abs/1703.10593) and [Pix2pixGAN](https://arxiv.org/abs/1611.07004) is utilized for training. The difference between CycleGan and pix2pix GAN is that pix2pix gan required paired dataset while c
 
 3. **Particle Tracking:**
    - Utilizing computer vision algorithms to track the movement and growth of individual particles across frames.
