@@ -46,7 +46,7 @@ In real-world scenarios, numerous videos showcase diverse parameters, including 
 
 For a demonstration of the project, you can download the video  [here](https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fadfm.202104628&file=adfm202104628-sup-0002-VideoS1.avi). Please note that this video is used solely for illustrative purposes and does not contain the actual code or proprietary content of the project.
 
-The video is associated with the article titled "Multilayer Graphene—A Promising Electrode Material in Liquid Cell Electrochemistry" published in [Advanced Functional Materials](https://onlinelibrary.wiley.com/doi/abs/10.1002/adfm.202104628) by Tan Shu Fen. If you are interested in exploring the full context and details of the project, I recommend referring to the original article.  
+The video is associated with the article titled **"Multilayer Graphene—A Promising Electrode Material in Liquid Cell Electrochemistry"** published in [Advanced Functional Materials](https://onlinelibrary.wiley.com/doi/abs/10.1002/adfm.202104628) by Tan Shu Fen. If you are interested in exploring the full context and details of the project, I recommend referring to the original article.  
 
 If you have any questions or would like to discuss the project further, feel free to reach out.
 
