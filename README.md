@@ -34,9 +34,13 @@ In real-world scenarios, numerous videos showcase diverse parameters, including 
 #### Example of Particle Tracking with unique ID and colors
 ![merge1](https://github.com/AsherTeo/TEM-Visionary---Processing-and-Analysis-Tools-for-Electron-Microscopy/assets/78581569/6a86bdf8-7c36-4e63-ba6e-006f218e6096)
 
-![Picture1](https://github.com/AsherTeo/TEM-Visionary---Processing-and-Analysis-Tools-for-Electron-Microscopy/assets/78581569/9deec9e7-5a15-4677-96f6-ba93eb29bd03) ![Picture2](https://github.com/AsherTeo/TEM-Visionary---Processing-and-Analysis-Tools-for-Electron-Microscopy/assets/78581569/4f81ec4a-3351-44c1-be16-32fce2dd474f)
+#### Example 1: Tracked Particles with ID and Colors vs. Size Variation Across Frames
 
+![Picture1](https://github.com/AsherTeo/TEM-Visionary---Processing-and-Analysis-Tools-for-Electron-Microscopy/assets/78581569/9deec9e7-5a15-4677-96f6-ba93eb29bd03) 
 
+#### Example 2: Tracked Particles with ID and Colors vs. Size Variation Across Frames
+
+![Picture2](https://github.com/AsherTeo/TEM-Visionary---Processing-and-Analysis-Tools-for-Electron-Microscopy/assets/78581569/4f81ec4a-3351-44c1-be16-32fce2dd474f)
 
 ## Data Download
 
