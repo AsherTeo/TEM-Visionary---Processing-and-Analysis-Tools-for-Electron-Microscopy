@@ -4,7 +4,9 @@
 To start, it's important to note that the video showcased is not a representation of the work I completed during my professional endeavors. I selected this particular video due to its confidential content.  The primary goal is to demonstrate and highlight my skills.
 
 ## Objective
-The primary aim of this project is to track the individual growth of particles over time and analyze the resulting trends. In real-world scenarios, particles often undergo nucleation, a process where small particles form and grow. Understanding the nucleation process is crucial for comprehending the overall particle growth dynamics. Additionally, the project aims to investigate instances where particles exhibit sudden size changes, attributed to chemical processes. The goal is to identify and analyze the reasons behind such fluctuations, whether it be an increase or decrease in particle size, providing valuable insights into the underlying chemical phenomena influencing particle behavior. The tracking mechanism employed in this study enables the observation of nucleation events and facilitates a comprehensive analysis of the factors contributing to particle growth or shrinkage over time.
+The primary aim of this project is to track the individual growth of particles over time and analyze the resulting trends. In real-world scenarios, particles often undergo nucleation, a process where small particles form and grow. Understanding the nucleation process is crucial for comprehending the overall particle growth dynamics. Additionally, the project aims to investigate instances where particles exhibit sudden size changes, attributed to chemical processes. 
+
+The goal is to identify and analyze the reasons behind such fluctuations, whether it be an increase or decrease in particle size, providing valuable insights into the underlying chemical phenomena influencing particle behavior. The tracking mechanism employed in this study enables the observation of nucleation events and facilitates a comprehensive analysis of the factors contributing to particle growth or shrinkage over time.
 
 ## Demo
 #### Binary Mask
