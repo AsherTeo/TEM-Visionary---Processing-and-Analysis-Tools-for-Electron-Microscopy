@@ -26,14 +26,12 @@ A class is designed for object tracking in a video, utilizing the Euclidean dist
 5. **Data Analysis:**
 In real-world scenarios, numerous videos showcase diverse parameters, including different scan rates and various types of carbon-based nanomaterials. Employing object tracking in these videos enables us to uncover patterns and refine our comprehension of nucleation. This analytical process is further enhanced by leveraging Python data visualization libraries such as Seaborn, allowing for a more effective and visually informative exploration of the tracked data. This approach gets us closer to understanding the underlying problem
 
-The methodology is designed to provide a robust framework for understanding particle behavior and trends over time.
-
 ## Demo
-#### Binary Mask
+#### Example of Binary Mask generated using Pix2pix GAN
 
 ![merge_mask](https://github.com/AsherTeo/TEM-Visionary---Processing-and-Analysis-Tools-for-Electron-Microscopy/assets/78581569/6493b8ff-1a73-447f-ac83-9ef98252b83d)
 
-#### Tracking
+#### Example of Particle Tracking with unique ID and colors
 ![merge1](https://github.com/AsherTeo/TEM-Visionary---Processing-and-Analysis-Tools-for-Electron-Microscopy/assets/78581569/6a86bdf8-7c36-4e63-ba6e-006f218e6096)
 
 ## Data Download
