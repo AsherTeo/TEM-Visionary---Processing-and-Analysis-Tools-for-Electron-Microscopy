@@ -12,8 +12,8 @@ The goal is to identify and analyze the reasons behind such fluctuations, whethe
 The methodology for this project involves a multi-step process:
 
 1. **Video Preprocessing:**
-   - The raw video data is preprocessed to enhance quality and extract relevant features for subsequent analysis.
-
+   - Image Annotation is conducted using  [LabKit](https://imagej.net/plugins/labkit/). Given the rarity of the particles, utilizing a pre-trained model is not feasible. Hence, a self-annotation approach is adopted, where approximately 10% of the frames are manually annotated. The selection of frames for annotation depends on the characteristics of the dataset.
+   - 
 2. **Image Segmentation:**
    - Employing advanced image segmentation techniques to isolate individual particles and create binary masks.
 
