@@ -8,6 +8,26 @@ The primary aim of this project is to track the individual growth of particles o
 
 The goal is to identify and analyze the reasons behind such fluctuations, whether it be an increase or decrease in particle size, providing valuable insights into the underlying chemical phenomena influencing particle behavior. The tracking mechanism employed in this study enables the observation of nucleation events and facilitates a comprehensive analysis of the factors contributing to particle growth or shrinkage over time.
 
+## Methodology
+The methodology for this project involves a multi-step process:
+
+1. **Video Preprocessing:**
+   - The raw video data is preprocessed to enhance quality and extract relevant features for subsequent analysis.
+
+2. **Image Segmentation:**
+   - Employing advanced image segmentation techniques to isolate individual particles and create binary masks.
+
+3. **Particle Tracking:**
+   - Utilizing computer vision algorithms to track the movement and growth of individual particles across frames.
+
+4. **Feature Extraction:**
+   - Extracting key features, such as particle size and shape, for each tracked particle.
+
+5. **Data Analysis:**
+   - Analyzing the extracted data to identify trends, especially focusing on nucleation events and sudden size changes.
+
+The methodology is designed to provide a robust framework for understanding particle behavior and trends over time.
+
 ## Demo
 #### Binary Mask
 
