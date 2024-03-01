@@ -15,8 +15,12 @@ The methodology for this project involves a multi-step process:
 Image Annotation is conducted using  [LabKit](https://imagej.net/plugins/labkit/). Given the rarity of the particles, utilizing a pre-trained model is not feasible. Hence, a self-annotation approach is adopted, where a small subset of the frames is manually annotated. The selection of frames for annotation depends on the characteristics of the dataset. The purpose of self-annotation is to generate an accurate binary mask, which can then be utilized for training purposes.
      
 2. **Image-to-Image Translation**
-  The training process employs [Pix2pixGAN](https://arxiv.org/abs/1611.07004) , specifically designed for paired image-to-image translation tasks. This model is trained using a dataset consisting of input images (frames) and their corresponding targets (binary masks). By utilizing a small subset of annotated masks during training, Pix2pixGAN learns the necessary mapping, enabling its application to the remaining unannotated frames.
-4. **Particle Tracking:**
+The training process employs [Pix2pixGAN](https://arxiv.org/abs/1611.07004) , specifically designed for paired image-to-image translation tasks. This model is trained using a dataset consisting of input images (frames) and their corresponding targets (binary masks). By utilizing a small subset of annotated masks during training, Pix2pixGAN learns the necessary mapping, enabling its application to the remaining unannotated frames.
+
+3. **Image Processing**
+After the Pix2pixGAN training, some of the generated masks may exhibit discoloration. To address this, an additional step is implemented using OpenCV to convert these masks into binary format. This post-processing ensures uniformity and accuracy in the binary masks, enhancing their suitability for subsequent stages of the analysis.
+
+3. **Particle Tracking:**
    - Utilizing computer vision algorithms to track the movement and growth of individual particles across frames.
 
 5. **Feature Extraction:**
